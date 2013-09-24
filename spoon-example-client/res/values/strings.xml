@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spoon Example</string>
+
+    <string name="button_text_1">I have altered the app.</string>
+    <string name="button_text_2">Pray I do not alter it any further.</string>
+
+    <string name="view_appearing_btn_text">The View appeareth!</string>
+    <string name="view_to_appear_text">Poof!</string>
+    <string name="navigating_button_text">I\'m like a bird...</string>
+    <string name="other_activity_text">I only nav away.</string>
+</resources>

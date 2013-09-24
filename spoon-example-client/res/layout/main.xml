@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+    <Button
+            android:id="@+id/text_changing_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_1"/>
+
+    <TextView
+            android:id="@+id/view_to_appear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/view_to_appear_text"
+            android:textSize="36sp"
+            android:visibility="invisible"/>
+
+    <Button
+            android:id="@+id/view_appearing_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_appearing_btn_text"/>
+
+    <Button
+            android:id="@+id/navigating_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/navigating_button_text"/>
+
+</LinearLayout>
